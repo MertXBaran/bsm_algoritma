@@ -212,3 +212,9 @@ Derste basit ve anlaşılması kolay girdi verileri olan ve girilen verilerle ma
     * Çıktı: `MERT BARAN`
 
     > Bu örnek, **String birleştirmenin** nasıl yapılacağını gösterir ve programlama sırasında metinleri bir araya getirmenin temel bir yolunu öğretir.
+
+---
+
+### **GELECEK DERSE KADAR YAPMAMIZ GEREKEN**
+    Ödev olmayabilir, zorunlu olmayabilir. Hocamız **1'den 5'e kadar olan sayıların toplamı** bunu verecek bir akış diyagramı çıkarabilirsiniz dedi.
+    > **5 - Ödev - Bir Sayıdan Başlayıp Diğer Sayıya Kadar Olan Sayıları Toplama.fprg** adında bir dosyada örnek akış diyagramını projeye ekledim.

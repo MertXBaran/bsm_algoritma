@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="5 - &#214;dev - Bir Say&#305;dan Ba&#351;lay&#305;p Di&#287;er Say&#305;ya Kadar Olan Say&#305;lar&#305; Toplama"/>
+        <attribute name="authors" value="bq"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-10-01 02:46:25 &#214;&#214;"/>
+        <attribute name="created" value="YnE7REVTS1RPUC1CRjJFUk9UOzIwMjUtMTAtMDE7MDI6MzY6MjMgw5bDljsyODM2"/>
+        <attribute name="edited" value="YnE7REVTS1RPUC1CRjJFUk9UOzIwMjUtMTAtMDE7MDI6NDY6MjUgw5bDljsyOzI5NDg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="toplam, baslangic, bitis, suankisayi" type="Integer" array="False" size=""/>
+            <assign variable="toplam" expression="0"/>
+            <output expression="&quot;Ba&#351;lang&#305;&#231; Say&#305;n&#305;z&#305; Giriniz (dahil)&quot;" newline="True"/>
+            <input variable="baslangic"/>
+            <output expression="&quot;Biti&#351; Say&#305;n&#305;z&#305; Giriniz (dahil)&quot;" newline="True"/>
+            <input variable="bitis"/>
+            <output expression="&quot;Yapt&#305;&#287;&#305;n&#305;z giri&#351;ler i&#231;in te&#351;ekk&#252;rler. &#304;&#351;leminiz yap&#305;l&#305;yor.&quot;" newline="True"/>
+            <for variable="suankisayi" start="baslangic" end="bitis" direction="inc" step="1">
+                <assign variable="toplam" expression="toplam+suankisayi"/>
+                <output expression="suankisayi &amp; &quot; eklendi ve g&#252;ncel toplam &quot; &amp; toplam &amp; &quot; oldu.&quot;" newline="True"/>
+            </for>
+            <output expression="toplam" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
