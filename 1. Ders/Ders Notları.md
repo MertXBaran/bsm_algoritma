@@ -168,6 +168,47 @@ Derste basit ve anlaşılması kolay girdi verileri olan ve girilen verilerle ma
     > Bu örnek, hem String hem Integer değişkenlerin bir arada nasıl kullanılacağını gösterir ve kullanıcıdan alınan verilerle basit bir hesaplama yapmayı öğretir.
 
 
-# 3 -2 - Öğrenci Bilgilerini Alıp Ortalama Hesaplama (Ekstra olarak "Eğer" özelliği kullanılarak Dersten geçip geçmediğini de not etmektedir.)
+* 3-2 - Öğrenci Bilgilerini Alıp Ortalama Hesaplama (Ekstra)
+    Bu akış diyagramı, önceki öğrenci ortalama hesaplama örneğine benzer, fakat bazı **ekstra özellikler** eklenmiştir. Bu özellikler derste henüz işlenmemiştir ve ekstra bilgi niteliğindedir.
 
-# 4 - String Birleştirme
+    #### **Farklar ve Ekstra Özellikler:**
+
+    1. **Geri Bildirim Mesajı:**
+
+    * Ortalama hesaplandıktan sonra kullanıcıya "Teşekkürler, ortalamanız hesaplanıyor." mesajı gösterilmektedir.
+
+    2. **Geçip Kalmayı Belirleme (IF Kullanımı):**
+
+    * `ortalama >= 50` ise `gectiMi` değişkenine "Dersten Geçtiniz" değeri atanır.
+    * `ortalama < 50` ise `gectiMi` değişkenine "Dersten Kaldınız" değeri atanır.
+    * Bu işlem için **IF-ELSE** yapısı kullanılmıştır, yani bir koşula bağlı olarak farklı işlemler yapılabilmektedir.
+
+    3. **Sonuç Gösterimi:**
+
+    * Ekrana öğrencinin numarası, ortalaması ve geçip geçmediği bilgisi birlikte yazdırılır.
+
+    > Not: IF yapısı ve geçme-kalma kontrolü derste henüz işlenmemiş olup, burada ekstra bilgi olarak gösterilmiştir. Bu sayede program, kullanıcıya sadece hesaplanan ortalamayı değil aynı zamanda dersten geçip geçmediğini de bildirebilmektedir.
+
+*4 - String Birleştirme
+    Bu akış diyagramında iki metin (String) birleştirilerek yeni bir değişken oluşturulmaktadır.
+
+    1. **Değişkenleri Tanımlama:**
+
+    * `A`, `B`, `C` → **String** türünde
+
+    2. **Değerlere Atama:**
+
+    * `A = "MERT "`
+    * `B = "BARAN"`
+
+    3. **String Birleştirme:**
+
+    * `C` değişkenine `A & B` işlemi uygulanır.
+    * Bu işlem, iki metni birleştirir ve `C` değişkenine atar.
+
+    4. **Sonucu Gösterme:**
+
+    * Ekrana `C` değişkeninin değeri yazdırılır.
+    * Çıktı: `MERT BARAN`
+
+    > Bu örnek, **String birleştirmenin** nasıl yapılacağını gösterir ve programlama sırasında metinleri bir araya getirmenin temel bir yolunu öğretir.
