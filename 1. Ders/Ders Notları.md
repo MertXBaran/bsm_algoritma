@@ -28,7 +28,7 @@ int A; // 'A' adında bir tam sayı değişkeni tanımlandı
 A = 10; // 'A' değişkenine 10 değeri atandı
 ```
 
-* Artık RAM’deki o yuvada **10 değeri saklanır** ve program boyunca bu değeri kullanabiliriz.
+* Artık RAM’deki bu alanda 10 değeri tutulur ve program boyunca ihtiyaç duyulduğunda kullanılabilir.
 
 ---
 
