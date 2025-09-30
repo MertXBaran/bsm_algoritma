@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="&#304;ki say&#305; tan&#305;mlay&#305;p toplama"/>
+        <attribute name="authors" value="bq"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-30 02:57:51 &#214;S"/>
+        <attribute name="created" value="YnE7REVTS1RPUC1CRjJFUk9UOzIwMjUtMDktMzA7MDE6NDk6MDggw5ZTOzI3MjE="/>
+        <attribute name="edited" value="YnE7REVTS1RPUC1CRjJFUk9UOzIwMjUtMDktMzA7MDI6NTc6NTEgw5ZTOzc7MjgzMw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="ogrNo, isim, soyisim" type="String" array="False" size=""/>
+            <declare name="vizeNotu, finalNotu" type="Integer" array="False" size=""/>
+            <declare name="ortalama" type="Real" array="False" size=""/>
+            <output expression="&quot;&#214;&#287;renci numaras&#305; giriniz.&quot;" newline="True"/>
+            <input variable="ogrNo"/>
+            <output expression="&quot;&#304;sminizi giriniz.&quot;" newline="True"/>
+            <input variable="isim"/>
+            <output expression="&quot;Soyisminizi giriniz.&quot;" newline="True"/>
+            <input variable="soyisim"/>
+            <output expression="&quot;Vize notunuzu giriniz.&quot;" newline="True"/>
+            <input variable="vizeNotu"/>
+            <output expression="&quot;Final notunuzu giriniz.&quot;" newline="True"/>
+            <input variable="finalNotu"/>
+            <output expression="&quot;Te&#351;ekk&#252;rler, ortalaman&#305;z hesaplan&#305;yor.&quot;" newline="True"/>
+            <assign variable="ortalama" expression="vizeNotu*0.4+finalNotu*0.6"/>
+            <declare name="gectiMi" type="String" array="False" size=""/>
+            <if expression="ortalama &gt;= 50">
+                <then>
+                    <assign variable="gectiMi" expression="&quot;Dersten Ge&#231;tiniz&quot;"/>
+                </then>
+                <else>
+                    <assign variable="gectiMi" expression="&quot;Dersten Kald&#305;n&#305;z&quot;"/>
+                </else>
+            </if>
+            <output expression="&quot;&#214;&#287;renci Numaran&#305;z: &quot; &amp; ogrNo &amp; &quot; | Not Ortalaman&#305;z: &quot; &amp; ortalama &amp; &quot; | &quot; &amp; gectiMi" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

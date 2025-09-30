@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="&#304;ki say&#305; tan&#305;mlay&#305;p toplama"/>
+        <attribute name="authors" value="bq"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-30 02:01:21 &#214;S"/>
+        <attribute name="created" value="YnE7REVTS1RPUC1CRjJFUk9UOzIwMjUtMDktMzA7MDE6NDk6MDggw5ZTOzI3MjE="/>
+        <attribute name="edited" value="YnE7REVTS1RPUC1CRjJFUk9UOzIwMjUtMDktMzA7MDI6MDE6MjEgw5ZTOzI7MjgxNA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A, B, C" type="Integer" array="False" size=""/>
+            <input variable="A"/>
+            <input variable="B"/>
+            <assign variable="C" expression="A+B"/>
+            <output expression="C" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
