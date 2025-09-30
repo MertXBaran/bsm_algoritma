@@ -219,4 +219,4 @@ Derste basit ve anlaşılması kolay girdi verileri olan ve girilen verilerle ma
 
 Ödev olmayabilir, zorunlu olmayabilir. Hocamız **1'den 5'e kadar olan sayıların toplamı** için bir akış diyagramı çıkarabilirsiniz dedi.
 
-5 - Ödev: Bir sayıdan başlayıp diğer sayıya kadar olan sayıları toplama. Örnek akış diyagramını `5 - Ödev - Bir Sayıdan Başlayıp Diğer Sayıya Kadar Olan Sayıları Toplama.fprg` adında bir dosyada projeye ekledim.
+> Bir sayıdan başlayıp diğer sayıya kadar olan sayıları toplama. Örnek akış diyagramını `5 - Ödev - Bir Sayıdan Başlayıp Diğer Sayıya Kadar Olan Sayıları Toplama.fprg` adında bir dosyada projeye ekledim.
