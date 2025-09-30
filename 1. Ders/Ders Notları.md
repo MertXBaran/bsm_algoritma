@@ -189,7 +189,7 @@ Derste basit ve anlaşılması kolay girdi verileri olan ve girilen verilerle ma
 
     > Not: IF yapısı ve geçme-kalma kontrolü derste henüz işlenmemiş olup, burada ekstra bilgi olarak gösterilmiştir. Bu sayede program, kullanıcıya sadece hesaplanan ortalamayı değil aynı zamanda dersten geçip geçmediğini de bildirebilmektedir.
 
-*4 - String Birleştirme
+* 4 - String Birleştirme
     Bu akış diyagramında iki metin (String) birleştirilerek yeni bir değişken oluşturulmaktadır.
 
     1. **Değişkenleri Tanımlama:**
