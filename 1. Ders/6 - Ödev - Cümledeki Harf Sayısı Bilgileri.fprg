@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Cumle Analizi"/>
+        <attribute name="authors" value="bq"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-10-01 11:00:31 &#214;&#214;"/>
+        <attribute name="created" value="YnE7REVTS1RPUC1CRjJFUk9UOzIwMjUtMTAtMDE7MTA6NDQ6MTcgw5bDljsyODM3"/>
+        <attribute name="edited" value="YnE7REVTS1RPUC1CRjJFUk9UOzIwMjUtMTAtMDE7MTE6MDA6MzEgw5bDljsyOzI5MzU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="cumle" type="String" array="False" size=""/>
+            <declare name="i, uzunluk, harfSayisi, boslukSayisi, sesliSayisi" type="Integer" array="False" size=""/>
+            <declare name="karakter" type="String" array="False" size=""/>
+            <output expression="&quot;Bir c&#252;mle giriniz:&quot;" newline="True"/>
+            <input variable="cumle"/>
+            <assign variable="uzunluk" expression="Len(cumle)"/>
+            <assign variable="harfSayisi" expression="0"/>
+            <assign variable="boslukSayisi" expression="0"/>
+            <assign variable="sesliSayisi" expression="0"/>
+            <for variable="i" start="0" end="uzunluk-1" direction="inc" step="1">
+                <assign variable="karakter" expression="Char(cumle, i)"/>
+                <if expression="karakter != &quot; &quot;">
+                    <then>
+                        <assign variable="harfSayisi" expression="harfSayisi+1"/>
+                        <if expression="karakter = &quot;a&quot; or karakter = &quot;e&quot; or karakter = &quot;&#305;&quot; or karakter = &quot;i&quot; or karakter = &quot;o&quot; or karakter = &quot;&#246;&quot; or karakter = &quot;u&quot; or karakter = &quot;&#252;&quot; or karakter = &quot;A&quot; or karakter = &quot;E&quot; or karakter = &quot;I&quot; or karakter = &quot;&#304;&quot; or karakter = &quot;O&quot; or karakter = &quot;&#214;&quot; or karakter = &quot;U&quot; or karakter = &quot;&#220;&quot;">
+                            <then>
+                                <assign variable="sesliSayisi" expression="sesliSayisi+1"/>
+                            </then>
+                            <else/>
+                        </if>
+                    </then>
+                    <else>
+                        <assign variable="boslukSayisi" expression="boslukSayisi+1"/>
+                    </else>
+                </if>
+            </for>
+            <output expression="&quot;Girdi&#287;iniz C&#252;mle: &quot; &amp; cumle" newline="True"/>
+            <output expression="&quot;Toplam Harf Say&#305;s&#305;: &quot; &amp; harfSayisi" newline="True"/>
+            <output expression="&quot;Bo&#351;luk Say&#305;s&#305;: &quot; &amp; boslukSayisi" newline="True"/>
+            <output expression="&quot;Sesli Harf Say&#305;s&#305;: &quot; &amp; sesliSayisi" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

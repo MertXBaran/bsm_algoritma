@@ -217,8 +217,10 @@ Derste basit ve anlaşılması kolay girdi verileri olan ve girilen verilerle ma
 
 ### GELECEK DERSE KADAR YAPMAMIZ GEREKEN
 
-Ödev olmayabilir, zorunlu olmayabilir. Hocamız **1'den 5'e kadar olan sayıların toplamı** için bir akış diyagramı çıkarabilirsiniz dedi.
+Ödev olmayabilir, zorunlu olmayabilir. Hocamız **1'den 5'e kadar olan sayıların toplamı** ve **Girilen bir cümledeki sesli harf sayısı, harf sayısı** için bir akış diyagramı çıkarabilirsiniz dedi.
 
 > Bir sayıdan başlayıp diğer sayıya kadar olan sayıları toplama. Örnek akış diyagramını `5 - Ödev - Bir Sayıdan Başlayıp Diğer Sayıya Kadar Olan Sayıları Toplama.fprg` adında bir dosyada projeye ekledim.
+
+> Bir cümle içindeki harf sayılarının, boşluk sayılarının ve sesli harf sayılarının sayısını veren bir akış diyagramı. Örnek akış diyagramını `6 - Ödev - Cümledeki Harf Sayısı Bilgileri.fprg` adında bir dosyada projeye ekledim.
 
 > Bu not derste işlediklerimizin bir kısmını kapsamaktadır. Ders esnasında not çıkartılarak hazırlanmamıştır. Yanlış bir bilgi olmadığını düşünüyorum fakat gözden kaçmış olabilir. Eğerki bir hata veya anlaşılmayan bir kısım var ise bana ulaşabilirsiniz. Birlikte düzenleyip eklemeler yapabiliriz.
