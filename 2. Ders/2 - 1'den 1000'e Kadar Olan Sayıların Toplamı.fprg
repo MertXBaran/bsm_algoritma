@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="8 - 1'den 1000'e Kadar Olan Say&#305;lar&#305;n Toplam&#305;"/>
+        <attribute name="authors" value="mertbaran"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-10-07 03:29:34 &#214;S"/>
+        <attribute name="created" value="bWVydGJhcmFuO01FUlQtTUFDQk9PSy1QUjsyMDI1LTEwLTA3OzAyOjI5OjEyIMOWUzszNDQ1"/>
+        <attribute name="edited" value="bWVydGJhcmFuO01FUlQtTUFDQk9PSy1QUjsyMDI1LTEwLTA3OzAzOjI5OjM0IMOWUzsyOzM1NTk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="tektoplam, cifttoplam, i" type="Integer" array="False" size=""/>
+            <assign variable="tektoplam" expression="0"/>
+            <assign variable="cifttoplam" expression="0"/>
+            <for variable="i" start="1" end="1000" direction="inc" step="1">
+                <if expression="i%2==0">
+                    <then>
+                        <assign variable="cifttoplam" expression="cifttoplam+i"/>
+                    </then>
+                    <else>
+                        <assign variable="tektoplam" expression="tektoplam+i"/>
+                    </else>
+                </if>
+            </for>
+            <output expression="&quot;&#199;ift Say&#305;lar&#305;n Toplam&#305;: &quot; &amp; cifttoplam" newline="True"/>
+            <output expression="&quot;Tek Say&#305;lar&#305;n Toplam&#305;: &quot; &amp; tektoplam" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
