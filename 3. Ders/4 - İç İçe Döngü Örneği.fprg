@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="4 - &#304;&#231; &#304;&#231;e D&#246;ng&#252; &#214;rne&#287;i"/>
+        <attribute name="authors" value="mertbaran"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-10-14 03:48:14 &#214;S"/>
+        <attribute name="created" value="bWVydGJhcmFuO01FUlQtTUFDQk9PSy1QUjsyMDI1LTEwLTE0OzAzOjM1OjQ3IMOWUzszNDQ5"/>
+        <attribute name="edited" value="bWVydGJhcmFuO01FUlQtTUFDQk9PSy1QUjsyMDI1LTEwLTE0OzAzOjQ4OjE0IMOWUzsyOzM1NTY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i, j, sayi" type="Integer" array="False" size=""/>
+            <assign variable="sayi" expression="0"/>
+            <for variable="i" start="1" end="2" direction="inc" step="1">
+                <for variable="j" start="1" end="2" direction="inc" step="1">
+                    <assign variable="sayi" expression="sayi+j+i"/>
+                    <output expression="&quot;i de&#287;eri: &quot; &amp; i &amp; &quot;, j de&#287;eri: &quot; &amp; j &amp; &quot;, T de&#287;eri: &quot; &amp; sayi" newline="True"/>
+                </for>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
