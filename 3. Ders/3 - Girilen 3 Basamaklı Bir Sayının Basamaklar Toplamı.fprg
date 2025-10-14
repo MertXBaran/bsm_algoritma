@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="3 - Girilen 3 Basamakl&#305; Bir Say&#305;n&#305;n Basamaklar Toplam&#305;"/>
+        <attribute name="authors" value="mertbaran"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-10-14 02:15:58 &#214;S"/>
+        <attribute name="created" value="bWVydGJhcmFuO01FUlQtTUFDQk9PSy1QUjsyMDI1LTEwLTE0OzAyOjAzOjAxIMOWUzszNDMz"/>
+        <attribute name="edited" value="bWVydGJhcmFuO01FUlQtTUFDQk9PSy1QUjsyMDI1LTEwLTE0OzAyOjE1OjU4IMOWUzsyOzM1NTc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayi, bolu100, bolu10, bolu1, toplam" type="Integer" array="False" size=""/>
+            <output expression="&quot;3 Basamakl&#305; bir say&#305; giriniz&quot;" newline="True"/>
+            <input variable="sayi"/>
+            <assign variable="bolu100" expression="sayi/100"/>
+            <assign variable="bolu10" expression="(sayi-(bolu100*100))/10"/>
+            <assign variable="bolu1" expression="(sayi-(bolu100*100))-(bolu10*10)"/>
+            <assign variable="toplam" expression="bolu1+bolu10+bolu100"/>
+            <output expression="&quot;Y&#252;zler Basama&#287;&#305;: &quot; &amp; bolu100" newline="True"/>
+            <output expression="&quot;Onlar Basama&#287;&#305;: &quot; &amp; bolu10" newline="True"/>
+            <output expression="&quot;Birler Basama&#287;&#305;: &quot; &amp; bolu1" newline="True"/>
+            <output expression="&quot;Basamaklar toplam&#305;: &quot; &amp; toplam" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

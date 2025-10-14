@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="2 - Kenarlar&#305; Verilen &#220;&#231;genin T&#252;r&#252;"/>
+        <attribute name="authors" value="mertbaran"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-10-14 02:52:24 &#214;S"/>
+        <attribute name="created" value="bWVydGJhcmFuO01FUlQtTUFDQk9PSy1QUjsyMDI1LTEwLTE0OzAxOjUyOjI5IMOWUzszNDQ2"/>
+        <attribute name="edited" value="bWVydGJhcmFuO01FUlQtTUFDQk9PSy1QUjsyMDI1LTEwLTE0OzAyOjUyOjI0IMOWUzszOzM1NTI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="kenar1, kenar2, kenar3" type="Integer" array="False" size=""/>
+            <declare name="tur" type="String" array="False" size=""/>
+            <output expression="&quot;1. Kenar Uzunlu&#287;unu Giriniz&quot;" newline="True"/>
+            <input variable="kenar1"/>
+            <output expression="&quot;2. Kenar Uzunlu&#287;unu Giriniz&quot;" newline="True"/>
+            <input variable="kenar2"/>
+            <output expression="&quot;3. Kenar Uzunlu&#287;unu Giriniz&quot;" newline="True"/>
+            <input variable="kenar3"/>
+            <assign variable="tur" expression="&quot;&#199;e&#351;itkenar&quot;"/>
+            <if expression="kenar1=kenar2 and kenar2=kenar3">
+                <then>
+                    <assign variable="tur" expression="&quot;E&#351;kenar&quot;"/>
+                </then>
+                <else>
+                    <if expression="kenar1=kenar2 or kenar1=kenar3 or kenar2=kenar3">
+                        <then>
+                            <assign variable="tur" expression="&quot;&#304;kizkenar&quot;"/>
+                        </then>
+                        <else/>
+                    </if>
+                </else>
+            </if>
+            <output expression="&quot;Girdi&#287;iniz &#252;&#231;genin t&#252;r&#252;: &quot; &amp; tur" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

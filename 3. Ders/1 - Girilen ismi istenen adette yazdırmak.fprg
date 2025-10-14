@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="1 - Girilen ismi istenen adette yazd&#305;rmak"/>
+        <attribute name="authors" value="mertbaran"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-10-14 01:52:21 &#214;S"/>
+        <attribute name="created" value="bWVydGJhcmFuO01FUlQtTUFDQk9PSy1QUjsyMDI1LTEwLTE0OzAxOjQ4OjI4IMOWUzszNDUw"/>
+        <attribute name="edited" value="bWVydGJhcmFuO01FUlQtTUFDQk9PSy1QUjsyMDI1LTEwLTE0OzAxOjUyOjIxIMOWUzsxOzM1NDY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="isim" type="String" array="False" size=""/>
+            <declare name="adet, i" type="Integer" array="False" size=""/>
+            <output expression="&quot;Bir &#304;sim Giriniz&quot;" newline="True"/>
+            <input variable="isim"/>
+            <output expression="&quot;Girilen ismin ka&#231; kez tekrar etmesini istiyorsunuz?&quot;" newline="True"/>
+            <input variable="adet"/>
+            <for variable="i" start="1" end="adet" direction="inc" step="1">
+                <output expression="isim" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
