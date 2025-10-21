@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="7 - Dizi &#304;le Kullan&#305;c&#305;n&#305;n Girdi&#287;i Say&#305;lar&#305; Ayn&#305; S&#305;rayla Yazd&#305;rmak"/>
+        <attribute name="authors" value="mertbaran"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-10-21 06:39:32 &#214;S"/>
+        <attribute name="created" value="bWVydGJhcmFuO01FUlQtTUFDQk9PSy1QUjsyMDI1LTEwLTIxOzAzOjMwOjE5IMOWUzszNDQx"/>
+        <attribute name="edited" value="bWVydGJhcmFuO01FUlQtTUFDQk9PSy1QUjsyMDI1LTEwLTIxOzA2OjM5OjMyIMOWUzszOzM1NTg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="b" type="Integer" array="True" size="10"/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <for variable="i" start="0" end="9" direction="inc" step="1">
+                <output expression="i+1 &amp; &quot;. Elemana De&#287;er Atay&#305;n&quot;" newline="True"/>
+                <input variable="b[i]"/>
+            </for>
+            <for variable="i" start="0" end="9" direction="inc" step="1">
+                <output expression="b[i]" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

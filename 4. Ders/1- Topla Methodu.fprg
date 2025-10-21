@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="1- Topla Methodu"/>
+        <attribute name="authors" value="mertbaran"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-10-21 01:42:37 &#214;S"/>
+        <attribute name="created" value="bWVydGJhcmFuO01FUlQtTUFDQk9PSy1QUjsyMDI1LTEwLTIxOzAxOjE5OjUzIMOWUzszNDQ0"/>
+        <attribute name="edited" value="bWVydGJhcmFuO01FUlQtTUFDQk9PSy1QUjsyMDI1LTEwLTIxOzAxOjQyOjM3IMOWUzs0OzM1NTM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayi1, sayi2" type="Integer" array="False" size=""/>
+            <call expression="topla()"/>
+        </body>
+    </function>
+    <function name="topla" type="None" variable="c">
+        <parameters/>
+        <body>
+            <declare name="a, b, c" type="Integer" array="False" size=""/>
+            <output expression="&quot;1. Say&#305;y&#305; Giriniz&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;2. Say&#305;y&#305; giriniz&quot;" newline="True"/>
+            <input variable="b"/>
+            <assign variable="c" expression="a+b"/>
+            <output expression="&quot;Sonu&#231;: &quot; &amp; c" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

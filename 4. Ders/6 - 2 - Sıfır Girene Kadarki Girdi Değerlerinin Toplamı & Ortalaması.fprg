@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="6 - S&#305;f&#305;r Girene Kadarki Girdi Say&#305;s&#305;"/>
+        <attribute name="authors" value="mertbaran"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-10-21 03:20:45 &#214;S"/>
+        <attribute name="created" value="bWVydGJhcmFuO01FUlQtTUFDQk9PSy1QUjsyMDI1LTEwLTIxOzAyOjE5OjMyIMOWUzszNDQy"/>
+        <attribute name="edited" value="bWVydGJhcmFuO01FUlQtTUFDQk9PSy1QUjsyMDI1LTEwLTIxOzAzOjIwOjQ1IMOWUzsyOzM1NDg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="girdisayisi, girdi, girditoplamlari" type="Integer" array="False" size=""/>
+            <assign variable="girdisayisi" expression="0"/>
+            <assign variable="girditoplamlari" expression="0"/>
+            <assign variable="girdi" expression="1"/>
+            <while expression="girdi != 0">
+                <output expression="&quot;Say&#305; Giriniz (programdan &#231;&#305;kmak i&#231;in 0 tu&#351;lay&#305;n)&quot;" newline="True"/>
+                <input variable="girdi"/>
+                <assign variable="girditoplamlari" expression="girditoplamlari+girdi"/>
+                <if expression="girdi != 0">
+                    <then>
+                        <assign variable="girdisayisi" expression="girdisayisi+1"/>
+                    </then>
+                    <else/>
+                </if>
+            </while>
+            <output expression="&quot;Girdi adeti: &quot; &amp; girdisayisi &amp; &quot;. Girdilerin Toplam&#305;: &quot; &amp; girditoplamlari &amp; &quot;. Girdi Ortalamalar&#305;: &quot; &amp; (girditoplamlari/girdisayisi)" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="1- Topla Methodu"/>
+        <attribute name="authors" value="mertbaran"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-10-21 01:34:45 &#214;S"/>
+        <attribute name="created" value="bWVydGJhcmFuO01FUlQtTUFDQk9PSy1QUjsyMDI1LTEwLTIxOzAxOjE5OjUzIMOWUzszNDQ0"/>
+        <attribute name="edited" value="bWVydGJhcmFuO01FUlQtTUFDQk9PSy1QUjsyMDI1LTEwLTIxOzAxOjM0OjQ1IMOWUzszOzM1NTI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayi1, sayi2" type="Integer" array="False" size=""/>
+            <output expression="&quot;Toplamak &#304;&#231;in 2 Adet Say&#305; Giriniz&quot;" newline="True"/>
+            <input variable="sayi1"/>
+            <output expression="&quot;&#304;kinci Say&#305;y&#305; Giriniz&quot;" newline="True"/>
+            <input variable="sayi2"/>
+            <output expression="&quot;Sonu&#231;: &quot; &amp; topla(sayi1,sayi2)" newline="True"/>
+        </body>
+    </function>
+    <function name="topla" type="Integer" variable="c">
+        <parameters>
+            <parameter name="a" type="Integer" array="False"/>
+            <parameter name="b" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="c" type="Integer" array="False" size=""/>
+            <assign variable="c" expression="a+b"/>
+        </body>
+    </function>
+</flowgorithm>

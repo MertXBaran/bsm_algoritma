@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="5 - 10 adet say&#305;dan en b&#252;y&#252;k say&#305;y&#305; bulma"/>
+        <attribute name="authors" value="mertbaran"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-10-21 02:19:30 &#214;S"/>
+        <attribute name="created" value="bWVydGJhcmFuO01FUlQtTUFDQk9PSy1QUjsyMDI1LTEwLTIxOzAyOjEwOjQxIMOWUzszNDMz"/>
+        <attribute name="edited" value="bWVydGJhcmFuO01FUlQtTUFDQk9PSy1QUjsyMDI1LTEwLTIxOzAyOjE5OjMwIMOWUzsxOzM1NDg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i, enbuyuksayi, sayi" type="Integer" array="False" size=""/>
+            <assign variable="enbuyuksayi" expression="0"/>
+            <for variable="i" start="0" end="9" direction="inc" step="1">
+                <output expression="(i+1)&amp;&quot;.&quot;&amp; &quot; Say&#305;y&#305; Giriniz&quot;" newline="True"/>
+                <input variable="sayi"/>
+                <if expression="sayi&gt;enbuyuksayi">
+                    <then>
+                        <assign variable="enbuyuksayi" expression="sayi"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <output expression="&quot;Girdi&#287;iniz en b&#252;y&#252;k say&#305;: &quot; &amp; enbuyuksayi" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
