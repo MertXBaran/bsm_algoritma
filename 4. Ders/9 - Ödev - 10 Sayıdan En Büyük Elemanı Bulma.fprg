@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="7 - Dizi &#304;le Kullan&#305;c&#305;n&#305;n Girdi&#287;i Say&#305;lar&#305; Ayn&#305; S&#305;rayla Yazd&#305;rmak"/>
+        <attribute name="authors" value="mertbaran"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-10-22 11:56:48 &#214;S"/>
+        <attribute name="created" value="bWVydGJhcmFuO01FUlQtTUFDQk9PSy1QUjsyMDI1LTEwLTIxOzAzOjMwOjE5IMOWUzszNDQx"/>
+        <attribute name="edited" value="bWVydGJhcmFuO01FUlQtTUFDQk9PSy1QUjsyMDI1LTEwLTIxOzA2OjM4OjQ3IMOWUzszOzM1NjM="/>
+        <attribute name="edited" value="bWVydGJhcmFuO01BQzsyMDI1LTEwLTIyOzExOjU2OjQ4IMOWUzsxOzI2OTY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="b" type="Integer" array="True" size="10"/>
+            <declare name="i, enbuyuksayi, sayiindex" type="Integer" array="False" size=""/>
+            <assign variable="enbuyuksayi" expression="0"/>
+            <for variable="i" start="0" end="9" direction="inc" step="1">
+                <output expression="i+1 &amp; &quot;. Elemana De&#287;er Atay&#305;n&quot;" newline="True"/>
+                <input variable="b[i]"/>
+                <if expression="b[i]&gt;enbuyuksayi">
+                    <then>
+                        <assign variable="sayiindex" expression="i"/>
+                        <assign variable="enbuyuksayi" expression="b[i]"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <output expression="&quot;Girilen en b&#252;y&#252;k say&#305;: &quot; &amp; enbuyuksayi &amp; &quot;, dizinin &quot; &amp; (sayiindex + 1) &amp; &quot;. eleman&#305;d&#305;r ve dizideki index numaras&#305;: &quot; &amp; sayiindex &amp; &quot; olarak belirlenmi&#351;tir.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
